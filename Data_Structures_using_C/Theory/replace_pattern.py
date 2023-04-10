@@ -1,0 +1,5 @@
+input_text=input('Enter the text: ')
+replace_pattern=input('Enter the pattern to replace: ')
+new_pattern=input('Enter the new pattern to insert: ')
+result=input_text.replace(replace_pattern, new_pattern)
+print('The result is: ', result)
